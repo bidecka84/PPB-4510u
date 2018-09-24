@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="100"
+        android:orientation="vertical"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingVertical="10dp"
+        android:textColor="#98ffffff"
+        android:textSize="30dp"
+        android:text="BIODATA" />
+
+
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="196dp"
+        android:layout_height="166dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/logo_android" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        tools:context="MainActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:orientation="vertical"
+            android:textStyle="bold"
+            android:textColor="#ca00ffe1"
+            android:paddingVertical="10dp"
+            android:text="Bidecka Benny Kisworo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:orientation="vertical"
+            android:textStyle="bold"
+            android:textColor="#ca00ffe1"
+            android:paddingVertical="10dp"
+            android:text="A11.2016.09377" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:orientation="vertical"
+            android:textStyle="bold"
+            android:textColor="#ca00ffe1"
+            android:paddingVertical="10dp"
+            android:text="A11.4501U" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:ems="10"
+            android:orientation="vertical"
+            android:textStyle="bold"
+            android:textColor="#ca00ffe1"
+            android:paddingVertical="10dp"
+            android:text="Pemrogaman Perangkat Bergerak" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openUrl"
+            android:background="#4fffffff"
+            android:layout_marginTop="20dp"
+            android:text="Open url"
+            android:textSize="20dp"
+            android:textColor="#fcff00ff"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:onClick="callNumber"
+                android:background="#4fffffff"
+                android:text="Call number"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textColor="#fcff00ff"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:onClick="showMap"
+            android:layout_marginTop="20dp"
+            android:background="#4fffffff"
+            android:text="Show Map Location"
+            android:textSize="20dp"
+            android:textColor="#fcff00ff"/>
+
+    </LinearLayout>
+</RelativeLayout>
+</LinearLayout>
