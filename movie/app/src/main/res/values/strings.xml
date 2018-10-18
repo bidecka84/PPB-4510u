@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">movie</string>
+
+    <string-array name ="names">
+        <item>Pilih Status</item>
+        <item>On Fire</item>
+        <item>Coming Soon</item>
+        <item>Close</item>
+    </string-array>
+
+</resources>
